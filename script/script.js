@@ -1,3 +1,4 @@
 function aperte(){
-    alert("Alo,queridinhos da jossyara")
+    alert("Alo,queridinhos da jossyara!");
+
 }
