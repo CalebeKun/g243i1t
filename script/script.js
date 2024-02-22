@@ -1,4 +1,4 @@
 function aperte(){
-    alert("Alo,queridinhos da jossyara!");
+    alert("TEM UM, VIRUS NO SEU COMPUTADOR!");
 
 }
