@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    <script src="./script/script.js"></script>
-    <link rel="stylesheet" href="./estilo/basico.css">
+<script src="script/script.js"></script>
+<link rel="stylesheet" href="estilo/basico.css">
+
 <body>
 
     <header class="barra">
         <span class="mobile">Mobile</span>
         <span class="tablet">Tablet</span>
-        <span class="desktop">desktop</span>
+        <span class="desktop">Desktop</span>
     </header>
 
-
-
-    
     <section class="conteudo">
-        <div>
-        <button class="btn" id="btn1" onclick="aba_op(1);">Aba 1</button>
-        <button class="btn" id="btn2" onclick="aba_op(2);">Aba 2</button>
-        <button class="btn" id="btn3" onclick="aba_op(3);">Aba 3</button>
-        <button class="btn" id="btn4" onclick="aba_op(4);">Aba 4</button>
-        <button class="btn" id="btn5" onclick="aba_op(5);">Aba 5</button>
+        <div class="btn">
+            <button class="botao" id="btn1" onclick="abrirraba(1);">pindamonhangaba1</button>
+            <button class="botao" id="btn2" onclick="abrirraba(2);">paralelepipedo2</button>
+            <button class="botao" id="btn3" onclick="abrirraba(3);">leituravel3</button>
+            <button class="botao" id="btn4" onclick="abrirraba(4);">pneumoultramicro</button>
+            <button class="botao" id="btn5" onclick="abrirraba(5);">oftalmolaringon</button>
         </div>
         <div class="abas">
-            <div class="aba" id="aba1">Estou na aba 1</div>
-            <div class="aba" id="aba2">Estou na aba 2</div>
-            <div class="aba" id="aba3">Estou na aba 3</div>
-            <div class="aba" id="aba4">Estou na aba 4</div>
-            <div class="aba" id="aba5">Estou na aba 5</div>
+            <div class="aba" id="aba1"> branco escuro </div>
+
+
+            <div class="aba" id="aba2"> 
+                
+                de:<input type="number" id="inicio">
+                até:<input type="number" id="fim"> <br>
+
+                <div id="saida"> <span id="valor"> </span> </div> <br> <br>
+
+                <button onclick="contar()">paralelepipedo escarlate</button>
+            
+            </div>
+
+            
+
+
+            <div class="aba" id="aba3"> e agr giovani? </div>
+            
+            
+                <input type="text" id="valor2">
+        
+            <div>
+                <button id="btninserir">adicionar na fila</button>
+                <button id="btnremover">remover na fila</button>
+            </div>
+            <div>
+                fila:  <span id="saida_fila"></span> <br>
+                ultimo removido: <span id="removido_fila"></span>
+            </div>
+      
+
+            <div class="aba" id="aba4"> kika pros uchirras </div>
+
+
+            <div class="aba" id="aba5"> Lorem ipsum dolor sit amet. Sed doloremque animi ut repellat corporis aut
+                obcaecati galisum quo magni iusto. Cum consequatur iste et fuga temporibus aut quam suscipit sit
+                explicabo rerum ea maiores voluptatem et officiis magni. Sit architecto dolorem ut omnis maxime non quis
+                tempore. </div>
+
         </div>
+
+        
+
     </section>
+
 </body>
+
 </html>
